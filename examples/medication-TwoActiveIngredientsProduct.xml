@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Medication xmlns="http://hl7.org/fhir">
+    <id value="TwoActiveIngredientsProduct"/>
+    
+    <form>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="154011000036109"/>
+            <display value="tablet"/>
+        </coding>
+    </form>    
+    
+    <ingredient>
+        <itemCodeableConcept>
+            <coding>
+                <system value="http://snomed.info/sct"/>
+                <code value="2460011000036108"/>
+                <display value="perindopril arginine"/>
+            </coding>
+        </itemCodeableConcept>
+        <isActive value="true"/>
+        <amount>
+            <numerator>
+                <value value="10"/>
+                <unit value="mg"/>
+                <system value="http://snomed.info/sct"/>
+                <code value="258684004"/>
+            </numerator>
+            <denominator>
+                <value value="1"/>
+                <unit value="tablet"/>
+                <system value="http://snomed.info/sct"/>
+                <code value="154011000036109"/>
+            </denominator>
+        </amount>
+    </ingredient>  
+    
+    
+    <ingredient>
+        <itemCodeableConcept>
+            <coding>
+                <system value="http://snomed.info/sct"/>
+                <code value="1792011000036100"/>
+                <display value="amlodipine"/>
+            </coding>
+        </itemCodeableConcept>
+        <isActive value="true"/>
+        <amount>
+            <numerator>
+                <value value="10"/>
+                <unit value="mg"/>
+                <system value="http://snomed.info/sct"/>
+                <code value="258684004"/>
+            </numerator>
+            <denominator>
+                <value value="1"/>
+                <unit value="tablet"/>
+                <system value="http://snomed.info/sct"/>
+                <code value="154011000036109"/>
+            </denominator>
+        </amount>
+    </ingredient>
+    
+</Medication>

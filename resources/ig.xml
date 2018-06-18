@@ -557,6 +557,14 @@
       </sourceReference>
     </resource>
     <resource>
+      <example value="true"/>
+      <name value="Medication with two active ingredients product"/>
+      <description value="Shows a typical medication with two active ingredients product"/>
+      <sourceReference>
+        <reference value="Medication/TwoActiveIngredientsProduct"/>
+      </sourceReference>
+    </resource>
+    <resource>
       <example value="false"/>
       <sourceReference>
         <reference value="StructureDefinition/au-medication"/>
