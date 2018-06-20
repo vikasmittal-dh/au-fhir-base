@@ -556,6 +556,14 @@
         <reference value="RelatedPerson/example0"/>
       </sourceReference>
     </resource>
+	<resource>
+      <example value="true"/>
+      <name value="Medication with single active ingredient product pack"/>
+      <description value="Shows a typical medication with single active ingredient in a product pack"/>
+      <sourceReference>
+        <reference value="Medication/SingleActiveIngredientsProductPack"/>
+      </sourceReference>
+    </resource>
     <resource>
       <example value="false"/>
       <sourceReference>

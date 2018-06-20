@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Medication xmlns="http://hl7.org/fhir">
+    <id value="SingleActiveIngredientsProductPack"/>    
+    
+    <text>
+        <status value="additional"/>
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>
+                <b>Additional Narrative with Details</b>
+            </p>
+            <p><b>id</b>: SingleActiveIngredientsProductPack</p>            
+            <p><b>Brand Name</b>: Chlorsig</p>
+            <p><b>Active Ingrediant</b>: chloramphenicol</p>
+            <p><b>Strength</b>: 0.5%</p>
+            <p><b>form</b>: eye drops <span style="background: LightGoldenRodYellow">(Details :
+                {SNOMED CT code '120011000036103' = 'eye drops', given as 'eye
+                drops'})</span></p>
+            <h3>Ingredients</h3>
+            <table class="grid">
+                <tr>
+                    <td>-</td>
+                    <td>
+                        <b>Ingredient/Product</b>
+                    </td>
+                    <td>
+                        <b>IsActive</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>*</td>
+                    <td>Chlorsig 0.5% eye drops solution, 10 mL <span
+                        style="background: LightGoldenRodYellow">(Details : {SNOMED CT code
+                        '12195011000036100' = 'Chlorsig 0.5% eye drops solution, 10 mL', given
+                        as 'Chlorsig 0.5% eye drops solution, 10 mL'})</span></td>
+                    <td>true</td>
+                </tr>
+            </table>
+        </div>
+    </text>
+    
+    <form>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="120011000036103"/>
+            <display value="eye drops"/>
+        </coding>
+    </form>    
+    
+    <ingredient>
+        <itemCodeableConcept>
+            <coding>
+                <system value="http://snomed.info/sct"/>
+                <code value="12195011000036100"/>
+                <display value="Chlorsig 0.5% eye drops solution, 10 mL"/>
+            </coding>
+        </itemCodeableConcept>
+        <isActive value="true"/>        
+    </ingredient>  
+    
+</Medication>
