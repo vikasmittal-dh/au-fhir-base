@@ -32,3 +32,6 @@ These Profiles have been defined for this implementation guide.
 ## Profiles on Data Types
 * [Base Australian Address](StructureDefinition-au-address.html) - well defined representation of an Australian address
 
+## Other Profiles
+* [Base Australian Condition](StructureDefinition-au-condition.html) - Australian realm Base Condition profile
+
